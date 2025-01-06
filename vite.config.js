@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/vv/', // GitHub Pages용 base 설정
+  base: '', // GitHub Pages용 base 설정
 });
