@@ -1,7 +1,7 @@
 export const Data = {
   profile: {
     name: "이재오",
-    occupation: "인공지능, 빅데이터 전문가", // 철자 수정
+    occupation: "인공지능, 빅데이터 전문가",
     location: "수원시 영통구 영통동 삼성로 320번길 62",
     email: "aaljo2@naver.com",
     telephone: "010-7547-3869",

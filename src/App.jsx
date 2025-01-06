@@ -1,5 +1,5 @@
 import React from 'react';
-import Data from './data/Data'; // Data.js 파일에서 데이터를 가져옵니다.
+import Data from './data/Data'; // Default import
 import './App.css'; // 스타일 파일
 
 function App() {
