@@ -1,7 +1,13 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '', // GitHub Pages용 base 설정
+  build: {
+    rollupOptions: {
+      output: {
+        exports: 'auto', // default와 named export 혼용 처리
+      },
+    },
+  },
 });
